@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_URL = 'https://github.com/Tope79/MyProject.git'
-        TOMCAT_URL    = 'http://3.14.126.191:8080/'
+        TOMCAT_URL    = 'http://52.15.237.50:8080/'
     }
     stages {
         stage('Git Clone') {
